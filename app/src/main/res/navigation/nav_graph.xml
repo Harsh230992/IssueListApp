@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/issueFragment">
+
+    <fragment android:id="@+id/issueFragment"
+              android:name="com.issuelistapp.ui.home.issue.IssueFragment"
+              android:label="Issue List" tools:layout="@layout/issue_fragment"/>
+
+    <fragment android:id="@+id/commentFragment"
+            android:name="com.issuelistapp.ui.home.comments.CommentsFragment"
+            android:label="Comment List" tools:layout="@layout/comment_fragment"/>
+
+</navigation>

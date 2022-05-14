@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:title="Issue List"
+            android:id="@+id/issueFragment"
+    />
+
+    <item
+            android:title="Comment List"
+            android:id="@+id/commentFragment"
+            android:visible="false"
+            />
+
+</menu>
